@@ -16,9 +16,9 @@ namespace WEB_API.Infraestrutura
         conferir os dados pelo beekeeper */
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql(
-                "Server=localhost" +
+                "Server=localhost;" +
                 "Port=5432;Database=PrimeiraAPI;" +
                 "User Id=postgres;" +
-                "Password=vaval0645;"); 
+                "Password=vaval0645;");
     }
 }

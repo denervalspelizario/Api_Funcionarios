@@ -27,8 +27,12 @@
     e por isso ele foi em Program.cs e adicionou um codigo que estará com registro [ID]
 
   - Na pasta Controller crie um controller vazio chamado EmployeeController este sera o controller
-    onde tera a logica com os gets, posts e delets da api
-    (Obs parei a criação em 10:18 aula 2/12)
+    onde tera a logica com os gets, posts e delets da api 
+    
+    OBS: para melhorar o projeto atributos usados no EmployeeController serao feitos na pasta
+         ViewModel na classe EmployeeViewModel     
+    
+  
    
  
  

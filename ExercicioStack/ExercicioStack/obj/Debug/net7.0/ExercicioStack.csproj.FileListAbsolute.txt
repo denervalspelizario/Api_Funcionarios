@@ -1,0 +1,15 @@
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\bin\Debug\net7.0\ExercicioStack.exe
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\bin\Debug\net7.0\ExercicioStack.deps.json
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\bin\Debug\net7.0\ExercicioStack.runtimeconfig.json
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\bin\Debug\net7.0\ExercicioStack.dll
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\bin\Debug\net7.0\ExercicioStack.pdb
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.AssemblyInfoInputs.cache
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.AssemblyInfo.cs
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.csproj.CoreCompileInputs.cache
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.sourcelink.json
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.dll
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\refint\ExercicioStack.dll
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.pdb
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ExercicioStack.genruntimeconfig.cache
+D:\repositorio\Api_Produtos_E01\ExercicioStack\ExercicioStack\obj\Debug\net7.0\ref\ExercicioStack.dll

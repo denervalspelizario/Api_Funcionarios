@@ -13,7 +13,7 @@ namespace WEB_API.Model
         public int id { get; private set; }
         public string name { get; private set; }
         public int age { get; private set; }
-        public string photo { get; private set; }
+        public string? photo { get; private set; } // como a foto é opcional adicionei ? para poder ser nulo
 
         // Construtor
         public Employee(string name, int age, string photo)

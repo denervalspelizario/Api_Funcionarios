@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WEB_API.Model;
+using WEB_API.ViewModel;
 
 namespace WEB_API.Controllers
 {
@@ -19,9 +20,35 @@ namespace WEB_API.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        public IActionResult Add()
+
+        /* Metodo Get 
+           que retorna status 200 mais a lista de todos os funcioanrios asicionados na tabela employee */
+        [HttpGet]
+        public IActionResult Get() 
         {
-            return View();
+            // pegando a lista de funcionarios e adicionando na variável employee
+            var employee = _employeeRepository.Get();
+
+            // retorno Ok que é um metodo de IActionResult que retorna um status 200 e a lista de funcionarios
+            return Ok(employee);
+        }
+
+
+        /* Metodo POST 
+           que retorna IActionResult e recebe como parametro um tipo
+           EmployeeViewModel(name e age) e adiciona os dados de um funcionario a tabela employee*/
+        [HttpPost]
+        public IActionResult Add(EmployeeViewModel employeeView)
+        {
+            /* employee um objeto que instancia a classe Employee que tem por estrutura 3 dados 
+               name age e photo(que neste caso será null)*/
+            var employee = new Employee(employeeView.Name, employeeView.Age, null);
+
+            // adicionado o objeto employee no repository de funcionarios
+            _employeeRepository.Add(employee);
+
+            // retornando Ok que é um metodo de IActionResult que retorta um status 200
+            return Ok();
         }
     }
 }
