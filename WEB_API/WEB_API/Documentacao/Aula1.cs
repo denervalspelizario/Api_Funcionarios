@@ -1,5 +1,5 @@
 ﻿/*
-  - Criando um api com ASPNET.CORE AULA 1
+  - Criando um api com ASPNET.CORE  e Conexao com Postgres SQL AULA 1
 
   - Crie um banco de dados postgress no beekeeper e neste banco de dados crie uma tabela  com os campos
     id - name - age - photo

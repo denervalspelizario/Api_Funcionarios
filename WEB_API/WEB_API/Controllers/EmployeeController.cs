@@ -37,9 +37,14 @@ namespace WEB_API.Controllers
         /* Metodo POST 
            que retorna IActionResult e recebe como parametro um tipo
            EmployeeViewModel(name e age) e adiciona os dados de um funcionario a tabela employee*/
+        /*[2] Para receber adicionar uma anotação no parametro adicionando [FromForm] isto fara
+              com que a adição de dados sera feita como se fosse um formulario mesmo */
         [HttpPost]
-        public IActionResult Add(EmployeeViewModel employeeView)
+        public IActionResult Add([FromForm]EmployeeViewModel employeeView)
         {
+            //[2] Criando uma variavel que pega o caminho onde o arquivo photo foi salvo
+            var filePath = Path.Combine("Storage", employeeView.Photo.FileName);  
+
             /* employee um objeto que instancia a classe Employee que tem por estrutura 3 dados 
                name age e photo(que neste caso será null)*/
             var employee = new Employee(employeeView.Name, employeeView.Age, null);
