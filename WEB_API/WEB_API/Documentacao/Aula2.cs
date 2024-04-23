@@ -13,8 +13,15 @@
             o caminho dos arquivos  
  
  - [2] Depois de criar a pasta volte no controller EmployeeController e no
-       post
- 
+       post adicione o codigo para  guardar o arquivo adicionado no storage e o caminho 
+       dela no banco de dados
+
+ - [2] Neste projeto vamos criar uma rota para baixar a foto(que esta no Storage) de acordo 
+       com a requisição, vá em IEmployeeRepository e adicione um metodo que retorna 
+       apenas 1 funcionario de acordo com o id passado
+       depois vá em Infraestrutura > EmployeeRepository e implemente a interface que falta
+       que no caso sera a Employee que retorna os dados de funcionario baseado no id passado,
+       então va para Controllers > EmployeeController  e crie a nova rota
  
  
  

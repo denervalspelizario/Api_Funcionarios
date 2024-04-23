@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\",
+  "WorkspaceRootPath": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_produtos_e01\\web_api\\web_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_produtos_e01\\web_api\\web_api\\documentacao\\aula2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\documentacao\\aula2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_produtos_e01\\web_api\\web_api\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_produtos_e01\\web_api\\web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\documentacao\\aula2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\documentacao\\aula2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\infraestrutura\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\infraestrutura\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|d:\\repositorio\\api_funcionarios\\web_api\\web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A42B4A7-ED31-4163-A928-58E6D7D386BC}|WEB_API\\WEB_API.csproj|solutionrelative:web_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,15 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Infraestrutura\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "WEB_API\\Infraestrutura\\EmployeeRepository.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Infraestrutura\\EmployeeRepository.cs",
+              "RelativeToolTip": "WEB_API\\Infraestrutura\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:33:22.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Model\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "WEB_API\\Model\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Model\\IEmployeeRepository.cs",
+              "RelativeToolTip": "WEB_API\\Model\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:30:40.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\ViewModel\\EmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\ViewModel\\EmployeeViewModel.cs",
               "RelativeDocumentMoniker": "WEB_API\\ViewModel\\EmployeeViewModel.cs",
-              "ToolTip": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\ViewModel\\EmployeeViewModel.cs",
               "RelativeToolTip": "WEB_API\\ViewModel\\EmployeeViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,40 +79,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "WEB_API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "WEB_API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAyAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwEoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T19:47:47.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Aula2.cs",
-              "DocumentMoniker": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Documentacao\\Aula2.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Documentacao\\Aula2.cs",
               "RelativeDocumentMoniker": "WEB_API\\Documentacao\\Aula2.cs",
-              "ToolTip": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Documentacao\\Aula2.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Documentacao\\Aula2.cs",
               "RelativeToolTip": "WEB_API\\Documentacao\\Aula2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T19:42:50.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Program.cs",
+              "DocumentMoniker": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Program.cs",
               "RelativeDocumentMoniker": "WEB_API\\Program.cs",
-              "ToolTip": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\Program.cs",
+              "ToolTip": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\Program.cs",
               "RelativeToolTip": "WEB_API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T23:17:03.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T23:17:03.075Z"
             }
           ]
         }

@@ -1178,11 +1178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\WEB_API.csproj",
+      "projectUniqueName": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\WEB_API.csproj",
       "projectName": "WEB_API",
-      "projectPath": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\WEB_API.csproj",
+      "projectPath": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\WEB_API.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "D:\\repositorio\\Api_Produtos_E01\\WEB_API\\WEB_API\\obj\\",
+      "outputPath": "D:\\repositorio\\Api_Funcionarios\\WEB_API\\WEB_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ares\\AppData\\Roaming\\NuGet\\NuGet.Config",

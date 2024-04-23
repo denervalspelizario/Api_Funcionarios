@@ -22,11 +22,17 @@ namespace WEB_API.Infraestrutura
 
 
         // Método que lista todos os funcionarios
-        public List<Employee> Get()
+        public List<Employee> GetAll()
         {
             /* Atravéz do _context acessa a tabela de funcionarios(Employees) e 
                usando o metodo ToList retorna todos os funcioanrios listados */
             return _context.Employees.ToList();
+        }
+
+        // [2] Método que retorna os dados de um funcionario especifico
+        public Employee? Get(int id)
+        {
+            return _context.Employees.Find(id);
         }
     }
 }
