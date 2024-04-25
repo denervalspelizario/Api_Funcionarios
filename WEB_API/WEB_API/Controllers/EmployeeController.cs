@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WEB_API.Model;
 using WEB_API.ViewModel;
 
@@ -21,8 +22,10 @@ namespace WEB_API.Controllers
         }
 
 
+
         /* Metodo Get 
            que retorna status 200 mais a lista de todos os funcioanrios asicionados na tabela employee */
+        [Authorize] // [3] Indicando que precisa de autenticação para acesso
         [HttpGet]
         public IActionResult Get() 
         {
@@ -34,11 +37,13 @@ namespace WEB_API.Controllers
         }
 
 
+
         /* Metodo POST 
            que retorna IActionResult e recebe como parametro um tipo
            EmployeeViewModel(name e age) e adiciona os dados de um funcionario a tabela employee*/
         /*[2] Para receber adicionar uma anotação no parametro adicionando [FromForm] isto fara
               com que a adição de dados sera feita como se fosse um formulario mesmo */
+        [Authorize] // [3] Indicando que precisa de autenticação para acesso
         [HttpPost]
         public IActionResult Add([FromForm]EmployeeViewModel employeeView)
         {
@@ -67,9 +72,11 @@ namespace WEB_API.Controllers
             return Ok();
         }
 
+
         /* [2] Método Post  
          * Que retorna a foto do usuario de acordo com o ID passado
          * Como essa rota tambem é um post eu preciso definir um novo nome dela*/
+        [Authorize] // [3] Indicando que precisa de autenticação para acesso
         [HttpPost]
         [Route("{id}/download")] //[2] Definindo nome da rota
         public IActionResult DownloadPhoto(int id)

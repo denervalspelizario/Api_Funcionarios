@@ -22,5 +22,10 @@ namespace WEB_API.Model
             this.age = age;
             this.photo = photo;
         }
+
+        // Construtor
+        public Employee()
+        {
+        }
     }
 }

@@ -76,3 +76,11 @@ D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\obj\Debug\net7.0\refint\WEB_API.
 D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\obj\Debug\net7.0\WEB_API.pdb
 D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\obj\Debug\net7.0\WEB_API.genruntimeconfig.cache
 D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\obj\Debug\net7.0\ref\WEB_API.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\repositorio\Api_Funcionarios\WEB_API\WEB_API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
