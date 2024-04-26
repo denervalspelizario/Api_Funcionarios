@@ -34,5 +34,18 @@ namespace WEB_API.Infraestrutura
         {
             return _context.Employees.Find(id);
         }
+
+
+        /* [4] Método que lista todos os funcionarios igual o metodo GetAll porém
+               tera 2 parametros para fazer uma paginação*/
+        public List<Employee> GetAllPag(int pageNumber, int pageQuantity)
+        {
+            /* [4]Atravéz do _context acessa a tabela de funcionarios(Employees) e
+               Skip = pega a posicao que quero trazer os registros
+               Take = pega a quantidade de registros que quero trazer
+               usando o metodo ToList retorna todos os funcionarios listados */
+            return _context.Employees.Skip(pageNumber * pageQuantity).Take(pageQuantity).ToList();
+            
+        }
     }
 }

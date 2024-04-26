@@ -37,6 +37,22 @@ namespace WEB_API.Controllers
         }
 
 
+        /* [4] Método Get 
+               necessita de autenticação
+               metodo retorna os dados dos funcionarios pórem de maneira filtrada
+               baseado no numeo da pagina e na quantidade necessaria */
+        [Authorize]
+        [HttpGet]
+        [Route("/paginacao")] // [4] Definindo nome da rota
+        public IActionResult GetAllFilter(int pageNumber, int pageQuantity)
+        {
+            // chamando o metodo getallpag criado la no EmployeeRepository
+            var employess = _employeeRepository.GetAllPag(pageNumber, pageQuantity);
+
+            return Ok(employess);
+        }
+
+
 
         /* Metodo POST 
            que retorna IActionResult e recebe como parametro um tipo
@@ -92,5 +108,9 @@ namespace WEB_API.Controllers
                1 - defino qual é o dado , 2 - defino qual o formato do dado que eu quero retornar */
             return File(dataBytes, "image/png");
         }
+
+
+        
+
     }
 }
