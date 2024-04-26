@@ -91,10 +91,18 @@ builder.Services.AddAuthentication(x =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment()) // Ambiente de desenvolvimento 
 {
+    /* [6] Se estiver dentro do ambiente de desenvolvimento redireciono todos os
+     * meu erros para a rota error-development */
+    app.UseExceptionHandler("/error-development");
+
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else  // [6] Se estiver for do desenvolvimento ou seja se for em produção
+{
+    app.UseExceptionHandler("/error"); //[6] os erros serão direcionandos para rota error
 }
 
 app.UseHttpsRedirection();
